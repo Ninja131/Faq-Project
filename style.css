@@ -1,0 +1,74 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #181e23;
+    color: #e1f1fe;
+}
+
+.faq{
+    max-width: 650px;
+    /* background-color: brown; */
+    margin: 100px auto 0px auto;
+}
+
+.faq_heading{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.list_wrap{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.faq_list_Cointaner{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 24px;
+    padding: 0 24px;
+}
+
+.faq_Question{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.faq_answer{
+    color: #748c9f;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
+
+/* .faq_answer_active{
+    height: 100%;
+} */
+
+
+#toggle_icon{
+    color: #50b0ff;
+    transition: 0.3s;
+}
+
+.active_icon{
+  transform: rotate(225deg);
+
+}
+
+.faq_divider{
+    width: 100%;
+    background-color: #2c373f;
+    height: 2px;
+    
+}
+
